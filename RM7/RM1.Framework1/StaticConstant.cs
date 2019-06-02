@@ -21,6 +21,7 @@ namespace RM7.Framework
         /// <summary>
         /// 文本地址记录路径
         /// </summary>
+        /// 
         public static string LogPath = ConfigurationManager.AppSettings["LogPath"];
         public static string JsonPath = ConfigurationManager.AppSettings["JsonPath"];
     }
